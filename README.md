@@ -54,7 +54,7 @@ With Error
 
 ## 6. Event Create Mail
 
-      ![alt text](image-9.png)
+![alt text](image-9.png)
 
 ## 6. Event edit
 
@@ -62,7 +62,7 @@ With Error
 
 ## 7. Event edit Mail
 
-      ![alt text](image-11.png)
+![alt text](image-11.png)
 
 ## 7. Event delete
 
@@ -70,7 +70,7 @@ With Error
 
 ## 9. Event delete Mail
 
-      ![alt text](image-13.png)
+![alt text](image-13.png)
 
 ## 8. Event details
 
