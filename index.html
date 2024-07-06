@@ -1,10 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue | Inventory</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <meta
+      name="authorization"
+      content="Bearer {{ \Illuminate\Support\Facades\Session::get('token') }}"
+    />
+    <meta name="api_url" content="{{ env(VITE_API_BASE_URL) }}" />
+    <meta name="app-url" content="{{ url('/') }}" />
+    <meta name="api_path" content="{{ config('app.VITE_API_BASE_URL') }}" />
+
+    <meta name="file-base-url" content="{{ url('/') }}/" />
+
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
   </head>
   <body>
     <div id="app"></div>

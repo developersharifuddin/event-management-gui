@@ -37,4 +37,5 @@ npm run build
 ```sh
 npm run lint
 ```
-"# event-management-gui" 
+
+"# event-management-gui"

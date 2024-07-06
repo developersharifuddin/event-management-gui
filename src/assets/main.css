@@ -14,7 +14,13 @@ a,
   transition: 0.4s;
   padding: 3px;
 }
+.invalid-feedback {
+  display: block !important;
+}
 
+.has-error .invalid-feedback {
+  display: block !important;
+}
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -32,4 +38,21 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+
+  .invalid-feedback {
+    display: block !important;
+  }
+
+  .has-error .invalid-feedback {
+    display: block !important;
+  }
+}
+
+.invalid-feedback {
+  display: block !important;
+}
+
+/* Display error messages when errors exist */
+.has-error .invalid-feedback {
+  display: block !important;
 }
