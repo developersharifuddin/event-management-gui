@@ -16,15 +16,9 @@ npm install
 npm run dev
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## "# event-management-gui"
 
-```sh
-npm run lint
-```
-
-"# event-management-gui"
-
-Features:
+## Features:
 
 ## 1. After npm run then open browser and paste Url: http://localhost:5173/
 
@@ -33,9 +27,12 @@ Features:
 ## 2. Register:
 
 ![alt text](image-3.png)
-with error:
+
+## with error:
+
 ![alt text](image-4.png)
-When register then go event page.
+
+## When register then go event page.
 
 ## 3. Login:
 
@@ -51,7 +48,7 @@ With Error
 
 ![alt text](image-8.png)
 
-## Event Create with Vvalidation
+## Event Create with Validation
 
 ![alt text](image-16.png)
 
