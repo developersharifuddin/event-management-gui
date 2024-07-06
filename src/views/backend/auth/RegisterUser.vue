@@ -116,7 +116,7 @@
 </template>
 
 <script>
-import axiosClient from '@/axios'
+import axiosClient from '../../../axios'
 
 export default {
   data() {

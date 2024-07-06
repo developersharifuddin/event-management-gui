@@ -81,7 +81,7 @@
 </template>
 
 <script>
-import axiosClient from '@/axios'
+import axiosClient from '../../../axios'
 import SpinnerButton from '../../../components/SpinnerButton.vue'
 import toastr from 'toastr'
 

@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import axiosClient from '@/axios'
+import axiosClient from '../../../axios'
 import toastr from 'toastr'
 
 export default {

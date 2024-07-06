@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import axiosClient from '@/axios'
+import axiosClient from '../../../axios'
 
 const user = ref({ name: '', email: '' })
 
