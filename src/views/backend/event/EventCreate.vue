@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card">
       <div class="card-header">
-        <p class="card-title" style="font-size: 16px; font-weight: bold">Event Information</p>
+        <p class="card-title" style="font-size: 16px; font-weight: bold">Create New Event</p>
         <div id="error"></div>
       </div>
 
